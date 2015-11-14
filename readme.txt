@@ -24,5 +24,8 @@ git reset --hard 9de85
 cat readme.txt 
 git reflog
 
-add something
+git diff HEAD -- readme.txt
+
+git checkout -- readme.txt
+
 
