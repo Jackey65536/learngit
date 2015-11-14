@@ -9,3 +9,8 @@ git status
 git diff
 git diff readme.txt
 
+git status
+vi readme.txt
+git add readme.txt
+git commit -m "change again"
+
