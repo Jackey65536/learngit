@@ -24,3 +24,5 @@ git reset --hard 9de85
 cat readme.txt 
 git reflog
 
+add something
+
