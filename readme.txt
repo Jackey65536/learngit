@@ -14,3 +14,5 @@ vi readme.txt
 git add readme.txt
 git commit -m "change again"
 
+git reset --hard HEAD^
+
