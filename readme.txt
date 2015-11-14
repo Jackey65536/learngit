@@ -16,3 +16,11 @@ git commit -m "change again"
 
 git reset --hard HEAD^
 
+git log --pretty=oneline
+git reset --hard HEAD^
+vi readme.txt 
+git log --pretty=oneline
+git reset --hard 9de85
+cat readme.txt 
+git reflog
+
