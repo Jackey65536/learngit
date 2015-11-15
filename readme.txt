@@ -24,8 +24,8 @@ git reset --hard 9de85
 cat readme.txt 
 git reflog
 
-git diff HEAD -- readme.txt
+git diff HEAD -- readme.txt 查看工作区 和版本库里面最新版本的区别
 
-git checkout -- readme.txt
+git checkout -- readme.txt 丢掉未add的工作区内容
 
-
+git reset HEAD readme.txt 删掉未commit的暂存区内容
