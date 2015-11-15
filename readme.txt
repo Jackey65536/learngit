@@ -29,3 +29,5 @@ git diff HEAD -- readme.txt 查看工作区 和版本库里面最新版本的区
 git checkout -- readme.txt 丢掉未add的工作区内容
 
 git reset HEAD readme.txt 删掉未commit的暂存区内容
+
+git push origin master 把本地的最新修改推送至github
